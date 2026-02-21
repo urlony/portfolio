@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="assets/images/urlon.png" />
+  <title>Portfolio - Chislon Olaybar</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="assets/script.js"></script>
+</head>
+<body>
+
+  <!---------------------------------------------- NAVBAR --------------------------------------------->
+  <nav class="navbar">
+    <div class="logo">Urlon</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Project</a></li>
+      <li><a href="#tools-and-technologies">Tools & Technologies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!---------------------------------------------- HERO ---------------------------------------------->
+  <section class="hero" id="home">
+    <img src="assets/images/Miles Morales Marvel GIF by Sony Pictures Animation.gif" alt="Hero Background" class="hero-bg" />
+    <audio id="myAudio">
+      <source src="assets/music/Post Malone, Swae Lee - Sunflower.mp3" type="audio/mpeg">
+    </audio>
+    <div class="hero-text">
+      <div class="quote">"Avoid or just undertake it"</div>
+      <h1>Hi I'm Urlon</h1>
+      <h3>Computer Science 3 • Developer & Editor</h3>
+      <p>
+        A novice web developer who is passionate about developing concepts into clear, 
+        intuitive websites. I like working with HTML and CSS, and I'm always pushing myself to get better at what I do. 
+        Great design in my opinion is simple easy to understand and easy to use.
+      </p>
+      <div class="buttons">
+        <button onclick="toggleMusic()" class="btn-primary" id="musicBtn">♫ Play Music</button>
+        <button onclick="window.location.href='#projects'" class="btn-secondary">Explore My Projects</button>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="card">
+        <h2>Chislon Olaybar M.</h2>
+            <div class="image-wrapper"> 
+                <img src="assets/images/ME.jpg" alt="Profile Picture" class="profile-pic" />
+            </div>
+            <p>@chislonolaybar</p>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------------------------- ABOUT ---------------------------------------------->
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate newcomer to the tech field with a keen interest in design and current web development. 
+        Even though I'm just starting out, I'm always learning new things, honing my abilities, 
+        and creating projects to advance as a developer.
+        I'm always ready to tackle new challenges, teamwork, and opportunities to learn from the brains of experienced industry experts. 
+        My objective is that I keep developing into a well-rounded developer who blends technical know-how with creativity.
+      </p>
+      <div class="stats">
+        <div>
+          <h3>1+</h3>
+          <p>Project Finished</p>
+        </div>
+        <div>
+          <h3>1+</h3>
+          <p>Month of Experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------------------------- SKILLS ---------------------------------------------->
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skills-category">
+        <h3>Technical Skills</h3>
+        <div class="skills-list">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Responsive Design</span>
+          <span class="skill-tag">Web Development</span>
+          <span class="skill-tag">UI/UX Design</span>
+        </div>
+      </div>
+      <div class="skills-category">
+        <h3>Soft Skills</h3>
+        <div class="skills-list">
+          <span class="skill-tag">Communication</span>
+          <span class="skill-tag">Problem Solving</span>
+          <span class="skill-tag">Teamwork</span>
+          <span class="skill-tag">Time Management</span>
+          <span class="skill-tag">Creativity</span>
+          <span class="skill-tag">Quick Learner</span>
+          <span class="skill-tag">Attention to Detail</span>
+          <span class="skill-tag">Adaptability</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------------------------- PROJECT ---------------------------------------------->
+  <section class="projects" id="projects">
+    <h2>Project</h2>
+    <div class="project-grid">
+      <div class="project-card">Music Player</div>
+    </div>
+  </section>                                                
+
+  <!---------------------------------------------- TOOLS & TECHNOLOGIES ---------------------------------------------->
+  <section class="tools-section" id="tools-and-technologies">
+    <h2>Tools & Technologies</h2>
+    <div class="tools-container">
+      <div class="tools-category">
+        <h3>Frontend</h3>
+        <div class="tools-list">
+          <span class="tool-tag">HTML5</span>
+          <span class="tool-tag">CSS3</span>
+          <span class="tool-tag">JavaScript</span>
+          <span class="tool-tag">React</span>
+          <span class="tool-tag">Responsive Design</span>
+        </div>
+      </div>
+      <div class="tools-category">
+        <h3>Backend</h3>
+        <div class="tools-list">
+          <span class="tool-tag">MySQL</span>
+          <span class="tool-tag">MongoDB</span>
+        </div>
+      </div>
+      <div class="tools-category">
+        <h3>Tools & Platforms</h3>
+        <div class="tools-list">
+          <span class="tool-tag">Git & GitHub</span>
+          <span class="tool-tag">VS Code</span>
+          <span class="tool-tag">Figma</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------------------------- CONTACT ---------------------------------------------->
+  <section class="contact" id="contact">
+    <h2>Get In Touch</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <h3>Chislon M. Olaybar</h3>
+        <p class="email">📧 olaybarcm@gmail.com</p>
+        <p class="review">Let's connect and create something amazing together!</p>
+      </div>
+      <div class="social-links">
+        <h3>Follow Me</h3>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/ur.lonlon" target="_blank" class="social-icon">
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.facebook.com/chislonolaybar" target="_blank" class="social-icon">
+            <span>Facebook</span>
+          </a>
+          <a href="https://github.com/urlony" target="_blank" class="social-icon">
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------------------------- FOOTER ---------------------------------------------->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2026 Chislon M. Olaybar. All rights reserved.</p>
+      <p>Designed & Developed with <span class="heart">❤</span> by Chislon</p>
+    </div>
+  </footer>
+
+
+</body>
+</html>
